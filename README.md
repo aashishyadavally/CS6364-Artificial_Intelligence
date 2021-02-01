@@ -1,2 +1,7 @@
-# CS6364-Artificial_Intelligence
-This repository tracks various assignments covered in CS6364 (Artificial Intelligence) course at UTD, taught by Dr. Dan Moldovan
+# CSCI 6364 - Artificial Intelligence
+
+This repository tracks the assignments for the course CSCI 6364 (Artificial Intelligence) taught at University of Texas - Dallas by Dr. Dan Moldovan.
+
+| Assignment #| Link                              | Status |
+|-------------|-----------------------------------|--------------|--------|
+| 1           |[click here]()|&#x2611;|
