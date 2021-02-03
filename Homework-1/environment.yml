@@ -1,0 +1,13 @@
+name: cs6364hw1
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core stack
+  - python>=3.6
+  - numpy
+  - scipy
+  - jupyter
