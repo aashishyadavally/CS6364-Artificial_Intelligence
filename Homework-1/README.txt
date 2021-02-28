@@ -18,10 +18,11 @@ This section describes the preqrequisites, and contains instructions, to get the
         (b) First line -> Input State, Second line -> Goal State.
     -   --algorithm
         Search algorithm to run, choices are:
-        (a) dfs: Depth-First Search
-        (b) ids: Iterative-Deepening Search
-        (c) astar1: A* algorithm with heuristic 1 (Number of misplaced tiles)
-        (d) astar2: A* algorithm with heuristic 2 (Manhattan Distance)
+        (a) bfs: Breadth-First Search
+        (b) dfs: Depth-First Search
+        (c) ids: Iterative-Deepening Search
+        (d) astar1: A* algorithm with heuristic 1 (Number of misplaced tiles)
+        (e) astar2: A* algorithm with heuristic 2 (Manhattan Distance)
     -   --depth-limit
         Depth limit for search traversal. Valid for Depth-First, Iterative-Deepening and A-Star Search algorithms.
 
