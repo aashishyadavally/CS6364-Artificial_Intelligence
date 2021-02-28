@@ -16,13 +16,14 @@ if __name__ == '__main__':
                         (a) \'*\' refers to the blank tile in 8-Puzzle Problem. \
                         (b) First line -> Input State, Second line -> Goal State.')
     parser.add_argument('--algorithm', dest='algo', type=str,
-                        choices=['dfs', 'ids', 'astar1', 'astar2'],
+                        choices=['bfs', 'dfs', 'ids', 'astar1', 'astar2'],
                         required=True, help='Search algorithm to run, choices are: \
-                        (a) dfs: Depth-First Search \
-                        (b) ids: Iterative-Deepening Search \
-                        (c) astar1: A* algorithm with heuristic 1 \
+                        (a) bfs: Breadth-First Search\
+                        (b) dfs: Depth-First Search \
+                        (c) ids: Iterative-Deepening Search \
+                        (d) astar1: A* algorithm with heuristic 1 \
                             (Number of misplaced tiles) \
-                        (d) astar2: A* algorithm with heuristic 2 \
+                        (e) astar2: A* algorithm with heuristic 2 \
                             (Manhattan Distance)')
     parser.add_argument('--depth-limit', dest='depth_limit', type=int,
                         default=10, help='Depth limit for search traversal. \
@@ -32,6 +33,8 @@ if __name__ == '__main__':
 
     start_state, goal_state = read_states(args.input_path)
 
+    if args.algo == 'bfs':
+        BFS(start_state, goal_state)
     if args.algo == 'dfs':
         DFS(start_state, goal_state, args.depth_limit)
     elif args.algo == 'ids':
