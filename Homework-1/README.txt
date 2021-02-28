@@ -8,7 +8,7 @@ This section describes the preqrequisites, and contains instructions, to get the
 
 > Usage
   -----
-    The user can get a description of the options by using the command: $ python __main__.py --help
+    The user can get a description of the options by using the command: $ python main.py --help
 
     User Options:
 
