@@ -1,0 +1,1 @@
+Brainpower_NNP ,_, not_RB physical_JJ plant_NN ,_, is_VBZ now_RB a_DT firm_NN 's_POS chief_JJ asset_NN ._.
